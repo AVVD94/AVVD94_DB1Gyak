@@ -28,7 +28,7 @@ public void hf4 ()
            kifile.close();
 
 
-          } catch (Exeption e) 
+          } catch (Exception e) 
       {
         e.printStackTrace();
         System.out.println ("File nyitasi hiba");
