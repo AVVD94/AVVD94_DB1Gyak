@@ -1,0 +1,46 @@
+SELECT count(Teljes_ar) FROM Langos WHERE Teljes_ar > 1000;
+
+SELECT Nev, Telefonszam FROM Vevo;
+
+SELECT min(Teljes_ar), max(Teljes_ar), avg(Teljes_ar) FROM Langos GROUP BY Langos_neve;
+
+SELECT * FROM Langos WHERE Teljes_ar<’3000’;
+
+SELECT Langos_neve FROM Langos WHERE Teljes_ar>(SELECT avg(Teljes_ar) FROM Langos);
+
+SELECT Nev from Futar;
+
+SELECT * FROM Langos WHERE Teljes_ar>’3000’;
+
+SELECT Langos_neve FROM Langos WHERE Teljes_ar BETWEEN 1000 AND 2000;
+
+SELECT Langos_neve FROM Langos WHERE Teljes_ar<(SELECT avg(Teljes_ar) FROM Langos);
+
+SELECT LangososID FROM Langosos WHERE Nyitvatartas=’8tol 22ig’ AND Nev=’Langos Bazis’;
+
+UPDATE parancsok
+
+UPDATE Vevo SET Hazszam=’12’ WHERE Utca=’Fo utca’;
+UPDATE Langosos SET Nyitvatartas=’8tol 22ig’ WHERE Nev=’Langos Bazis’;
+UPDATE Beszallito SET Iranyitoszam=3510 WHERE Nev=’Kis Zoldseges’;
+UPDATE Langos SET Teljes_ar=’1000’ WHERE LangososID=’5’;
+UPDATE Langosos SET Nev=’Langososdi’ WHERE Telefonszam=’307364563’;
+
+Rekord törlések
+ DELETE FROM Vevo WHERE Hazszam=23;
+ DELETE FROM Futar WHERE Telefonszam=706655665;
+ DELETE FROM Langosos WHERE Nev=’Langos Bazis’;
+ DELETE FROM Beszallito WHERE Iranyitoszam=3509;
+ DELETE FROM Langosos WHERE Nyitvatartas=’10tol 20ig’;
+
+Táblák törlése:
+DROP TABLE Rendeles;
+DROP TABLE Feltet;
+DROP TABLE Vevo;
+DROP TABLE Langos;
+DROP TABLE Futar;
+DROP TABLE Beszallito;
+DROP TABLE Langosos;
+DROP TABLE Beszallitas;
+
+

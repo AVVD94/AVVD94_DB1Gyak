@@ -1,0 +1,75 @@
+CREATE TABLE Langosos (
+LangososID INT NOT NULL,
+Nyitvatartas VARCHAR(20),
+Nev VARCHAR(30),
+Telefonszam INT,
+Weboldal VARCHAR(40),
+PRIMARY KEY (LangososID)
+);
+
+CREATE TABLE Beszallito (
+BeszallitoID INT NOT NULL,
+Elerhetoseg VARCHAR(50),
+Nev VARCHAR(30),
+Varos VARCHAR(30),
+Iranyitoszam INT,
+Utca VARCHAR(30),
+Hazszam INT,
+PRIMARY KEY (BeszallitoID)
+);
+
+Create table beszallitas(
+beszallitID INT NOT NULL, 
+Datum DATE,
+Hozzavalo VARCHAR(30),
+LangososID INT, beszallitoID INT,
+PRIMARY KEY(BeszallitID),
+FOREIGN KEY(LangososID) REFERENCES Langosos(LangososID),
+FOREIGN KEY(BeszallitoID) REFERENCES beszallito(beszallitoID));
+
+CREATE TABLE Futar (
+FutarID INT NOT NULL,
+Nev VARCHAR(30),
+Telefonszam INT,
+LangososID INT,
+PRIMARY KEY (FutarID),
+FOREIGN KEY (LangososID) REFERENCES Langosos(LangososID)
+);
+
+CREATE TABLE Langos (
+LangosID INT NOT NULL,
+Teljes_ar VARCHAR(7),
+Langos_neve VARCHAR(35),
+LangososID INT NOT NULL,
+PRIMARY KEY (LangosID),
+FOREIGN KEY (LangososID) REFERENCES Langosos(LangososID)
+);
+
+CREATE TABLE Vevo (
+VevoID INT NOT NULL,
+Nev VARCHAR(30),
+Telefonszam INT,
+Varos VARCHAR(30),
+Iranyitoszam INT,
+Utca VARCHAR(30),
+Hazszam INT,
+PRIMARY KEY (VevoID)
+);
+
+CREATE TABLE Feltet (
+Feltet VARCHAR(25),
+LangosID INT,
+PRIMARY KEY (Feltet),
+FOREIGN KEY (LangosID) REFERENCES Langos(LangosID)
+);
+
+CREATE TABLE Rendeles (
+RendelesID INT NOT NULL,
+LangosID INT,
+VevoID INT,
+PRIMARY KEY (RendelesID),
+FOREIGN KEY (LangosID) REFERENCES Langos(LangosID),
+FOREIGN KEY (VevoID) REFERENCES Vevo(VevoID)
+);
+
+

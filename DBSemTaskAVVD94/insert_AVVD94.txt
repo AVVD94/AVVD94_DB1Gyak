@@ -1,0 +1,263 @@
+INSERT INTO Beszallito VALUES
+(’1’, ’701673824’, ’Varosi Piac’, ’Miskolc’, ’3509’, ’Fo utca’, ’13’ );
+INSERT INTO Beszallito VALUES
+ (’2’, ’305638633’, ’Kis Zoldseges’, ’ Budapest’, ’ 1032’, ’ Arany János út’, ’5’ );
+INSERT INTO Beszallito VALUES
+ (’3’, ’207462758’, ’Marika Zoldseges’, ’Miskolc’, ’3510’, ’Fo utca’, ’23’ );
+INSERT INTO Beszallito VALUES
+ (’4’,’nagy.piac@gmail.com’, ’Nagy Piac’, ’Debrecen’, ’ 4024’, ’Fo utca’, ’1’ );
+INSERT INTO Beszallito VALUES
+ (’5’, ’207461547’, ’Robert Zoldseges’, ’Miskolc’, ’3510’, ’Fo utca’, ’56’ );
+INSERT INTO Beszallito VALUES
+ (’6’,’307362856’,’Nagy Zoldseges’,’Nyiregyhaza’,’ 4433’, ’Fo utca’,’ 65’);
+INSERT INTO Beszallito VALUES
+ (’7’, ’207452748’, ’Kertvarosi Piac’, ’Miskolc’, ’3500’, ’Fo utca’, ’73’ );
+INSERT INTO Beszallito VALUES
+ (’8’, ’kis.piac@gmail.com’, ’Kis Piac’, ’Kazincbarcika’, ’3700’, ’Fo utca’, ’13’ );
+INSERT INTO Beszallito VALUES
+ (’9’, ’707462847’, ’Vetemenyes Kert’, ’Miskolc’, ’3500’, ’ Tulipan utca’, ’64’ );
+INSERT INTO Beszallito VALUES
+ (’10’, ’308462648’, ’Nagy Husaruhaz’, ’Ozd’, ’3662’, ’Fo utca’, ’24’ );
+INSERT INTO Beszallito VALUES
+ (’11’, ’208463847’, ’Varosi Husbolt ’, ’Miskolc’, ’3500 ’, ’Szeder utca’, ’23’ );
+INSERT INTO Beszallito VALUES
+ (’12’, ’feri.husbolt@gmail.com’, ’Feri Husbolt’, ’Szeged’, ’6720’, ’Fo utca’, ’64’ );
+INSERT INTO Beszallito VALUES
+ (’13’, ’708462824’, ’ Kis Husbolt’, ’Miskolc’, ’3517’, ’Mogyoro utca’, ’89’ );
+INSERT INTO Beszallito VALUES
+ (’14’, ’207568273’, ’Pistike Gyumolcsboltja’, ’Budapest’, ’1036’, ’Fo utca’, ’102’ );
+INSERT INTO Beszallito VALUES
+ (’15’, ’307629857’, ’Margit Kenyerbolt’, ’Miskolc’, ’3500’, ’Bodza utca’, ’43’ );
+
+
+INSERT INTO Futar VALUES
+('1' , 'Kiss Jozsef' , '205234534' , '4');
+INSERT INTO Futar VALUES
+ ('2' , 'Nagy Janos' , '303452345' , '7');
+INSERT INTO Futar VALUES
+('3' , 'Lakatos Geza' , '304564563' , '1');
+INSERT INTO Futar VALUES
+ ('4' , 'Kiss Anna’, ’205634566' , '3');
+INSERT INTO Futar VALUES
+ ('5' , 'Nagy Tibor' , '704563456' , '5');
+INSERT INTO Futar VALUES
+ ('6' , 'Horvath Lajos' , '706345643' , '2');
+INSERT INTO Futar VALUES
+ ('7' , 'Toth Gabor' , '209368253' , '5');
+INSERT INTO Futar VALUES
+ ('8' , 'Nagy Fanni' , '208263463' , '7');
+INSERT INTO Futar VALUES
+ ('9' , 'Vegh Bela' ,'706655665' , '3');
+INSERT INTO Futar VALUES
+ ('10' , 'Juhasz Gergely' , '304568654' , '7');
+INSERT INTO Futar VALUES
+ ('11' , 'Meszaros Gabor' , '308123456' , '4');
+INSERT INTO Futar VALUES
+ ('12' , 'Fekete Maria' , '309994445' , '6');
+INSERT INTO Futar VALUES
+ ('13' , 'Magyar Lajos' , '206234556' , '2');
+INSERT INTO Futar VALUES
+ ('14' , 'Nemeth Robert' , '208822553' , '7');
+INSERT INTO Futar VALUES
+ ('15' , 'Torok Bela' , '307256677' , '2');
+
+
+
+INSERT INTO Langos VALUES
+('1', '500', 'Sima langos’, '7');
+INSERT INTO Langos VALUES
+('2', '3000', 'Gyros Langos’, '3');
+INSERT INTO Langos VALUES
+('3', '4000', 'Hambi Langos’, '6');
+INSERT INTO Langos VALUES
+('4', '3500', 'Vega Langos’, '3');
+INSERT INTO Langos VALUES
+('5', '3200', 'Husimado Langos’, '6');
+INSERT INTO Langos VALUES
+('6', '1200', 'Sajtos Langos’, '2');
+INSERT INTO Langos VALUES
+('7', '800', 'Kapros tejfolos Langos’, '7');
+INSERT INTO Langos VALUES
+('8', '2000', 'Kolbászos Langos’, '2');
+INSERT INTO Langos VALUES
+('9', '3200', 'Inyenc Langos', '6');
+INSERT INTO Langos VALUES
+('10', '4300', 'Gyros Langos', '8');
+INSERT INTO Langos VALUES
+('11', '1200', 'Csirkemell Langos', '2');
+INSERT INTO Langos VALUES
+('12', '1400', 'Tejfolos Langos', '5');
+INSERT INTO Langos VALUES
+('13', '1200', 'Tejfolos-sajtos Langos', '7');
+INSERT INTO Langos VALUES
+('14', '1400', 'Szalamis Langos', '2');
+INSERT INTO Langos VALUES
+('15', '1300', 'Sonkas Langos', '5');
+
+
+
+INSERT INTO Vevo VALUES
+('1', 'Kiss Janos', '704343433', 'Miskolc', '3509', 'Virag utca', '1');
+INSERT INTO Vevo VALUES
+('2', 'Nagy Geza', '301212123', 'Miskolc', '3510', 'Szeder utca', '32');
+INSERT INTO Vevo VALUES
+('3', 'Lakatos Anna', '201212123', 'Ózd', '3662', 'Mogyoro utca', '34');
+INSERT INTO Vevo VALUES
+('4', 'Kiss Tibor', '701212123', 'Kazincbarcika', '3700', 'Fo utca', '21');
+INSERT INTO Vevo VALUES
+('5', 'Nagy Lajos', '204343432', 'Miskolc', '3509', 'Hovirag utca', '43');
+INSERT INTO Vevo VALUES
+('6', 'Horvath Gabor', '206543234', 'Miskolc', '3510', 'Matyas ut', '23');
+INSERT INTO Vevo VALUES
+('7', 'Toth Fanni', '302345676', 'Ózd', '3662', 'Tardonai ut', '3');
+INSERT INTO Vevo VALUES
+('8', 'Nagy Bela', '203454345', 'Kazincbarcika', '3700', 'Herbolyai út', '23');
+INSERT INTO Vevo VALUES
+('9', 'Vegh Gergely', '301231231', 'Miskolc', '3509', 'Fo utca', '21');
+INSERT INTO Vevo VALUES
+('10', 'Juhasz Gabor', '206545679', 'Miskolc', '3510', 'Napsugar utca', '43');
+INSERT INTO Vevo VALUES
+('11', 'Meszaros Maria', '309999999', 'Ozd', '3662', 'Teve utca', '2');
+INSERT INTO Vevo VALUES
+('12', 'Fekete Lajos', '208888888', 'Kazincbarcika', '3700', 'Kutya utca', '5');
+INSERT INTO Vevo VALUES
+('13', 'Magyar Robert', '207777777', 'Miskolc', '3509', 'Szurikata utca', '12');
+INSERT INTO Vevo VALUES
+('14', 'Nemeth Bela', '204444444', 'Miskolc', '3510', 'Fo utca', '5');
+INSERT INTO Vevo VALUES
+('15', 'Torok Jozsef', '307755678', 'Ozd', '3662', 'Kiraly utca', '2');
+
+
+INSERT INTO Langosos VALUES
+('1',’7tol 18ig’,'Langos Bazis', '209876543', ’langos.bazis.hu ');
+INSERT INTO Langosos VALUES
+('2', ’10tol 20ig’,'Langosozo', '208765432', 'langosozo.hu’);
+INSERT INTO Langosos VALUES
+('3',’8tol 22ig’,'Langos party', '306876546', ’langos.party.hu ');
+INSERT INTO Langosos VALUES
+('4',’10tol 20ig’,'Langos-ker', '307364563',’langker.hu');
+INSERT INTO Langosos VALUES
+('5', ’9tol 22ig ’,'El Langos', '303834657', 'el.langos.hu');
+INSERT INTO Langosos VALUES
+('6',’10tol 20ig’,'Langos bufe', '709728374', 'langos.bufe.hu');
+INSERT INTO Langosos VALUES
+('7', ’9tol 22ig’,'Karavan langos', '704738277', 'karavan.langos.hu');
+INSERT INTO Langosos VALUES
+('8',’ 7tol 18ig ’,'Langos Bazis', '309834782', 'langos.bazis.hu');
+INSERT INTO Langosos VALUES
+('9', ’8tol 22ig ’,'Langos Tabor', '201231239', 'langos.tabor.hu');
+INSERT INTO Langosos VALUES
+('10', ’9tol 22ig’,' Langos kerulet ', '309874783', 'langosker.hu');
+INSERT INTO Langosos VALUES
+('11',’8tol 20ig’,'Langos bar', '209874283', 'langos.bar.hu');
+INSERT INTO Langosos VALUES
+('12',’7tol 18ig’ ,'Langos Bazis', '709836848', 'langos.bazis.hu');
+INSERT INTO Langosos VALUES
+('13’,’10tol 20ig ’,'Langosozo', '209879874', 'langos.city.hu');
+INSERT INTO Langosos VALUES
+('14',’8tol 22ig’,'Langos tabor', '303333333', 'langos.tabor.hu');
+INSERT INTO Langosos VALUES
+('15', ’8tol 20ig’ ,'Gorog langos', '202222222', 'goroglangos.hu');
+
+
+
+INSERT INTO Feltet VALUES
+('sajt', '6');
+INSERT INTO Feltet VALUES
+('sonka', '2');
+INSERT INTO Feltet VALUES
+(’fustoltsajt', '4');
+ INSERT INTO Feltet VALUES
+('tejfol', '7');
+INSERT INTO Feltet VALUES
+('fokhagyma', '2');
+INSERT INTO Feltet VALUES
+('paradicsom', '1');
+INSERT INTO Feltet VALUES
+('hagyma', '12');
+INSERT INTO Feltet VALUES
+('baranyhus', '6');
+INSERT INTO Feltet VALUES
+('bacon', '15');
+INSERT INTO Feltet VALUES
+('csirkemell', '12');
+INSERT INTO Feltet VALUES
+('kapor', '7');
+INSERT INTO Feltet VALUES
+('brokkoli', '9');
+INSERT INTO Feltet VALUES
+('szalami', '6');
+INSERT INTO Feltet VALUES
+('kolbasz', '12');
+INSERT INTO Feltet VALUES
+('szalonna', '3');
+
+
+
+
+INSERT INTO Rendeles VALUES
+('1', '3', '1');
+INSERT INTO Rendeles VALUES
+('2', '2', '3');
+INSERT INTO Rendeles VALUES
+('3', '4', '2');
+INSERT INTO Rendeles VALUES
+('4', '9', '5');
+INSERT INTO Rendeles VALUES
+('5', '1', '4');
+INSERT INTO Rendeles VALUES
+('6', '5', '2');
+INSERT INTO Rendeles VALUES
+('7', '2', '6');
+INSERT INTO Rendeles VALUES
+('8', '5', '5');
+INSERT INTO Rendeles VALUES
+('9', '2', '4');
+INSERT INTO Rendeles VALUES
+('10', '7', '2');
+INSERT INTO Rendeles VALUES
+('11', '6', '3');
+INSERT INTO Rendeles VALUES
+('12', '4', '4');
+INSERT INTO Rendeles VALUES
+('13', '1', '4');
+INSERT INTO Rendeles VALUES
+('14', '3', '2');
+INSERT INTO Rendeles VALUES
+('15', '2', '4');
+
+
+
+INSERT INTO Beszallitas VALUES
+('1', '2021-10-30', 'Liszt', '6', '4');
+INSERT INTO Beszallitas VALUES
+('2', '2021-10-31', 'Tej', '3', '5');
+INSERT INTO Beszallitas VALUES
+('3', '2021-11-01', 'Cukor', '4', '3');
+INSERT INTO Beszallitas VALUES
+('4', '2021-11-02', 'Hus', '8', '5');
+INSERT INTO Beszallitas VALUES
+('5', '2021-11-03', 'Zoldsegek', '9', '2');
+INSERT INTO Beszallitas VALUES
+('6', '2021-11-04', 'Hustermekek', '2', '2');
+INSERT INTO Beszallitas VALUES
+('7', '2021-11-05', 'Tejfol', '3', '4');
+INSERT INTO Beszallitas VALUES
+('8', '2021-11-06', 'Sonka', '4', '7');
+INSERT INTO Beszallitas VALUES
+('9', '2021-11-07', 'Fustoltsajt', '5', '9');
+INSERT INTO Beszallitas VALUES
+('10', '2021-11-08', 'Csirkehus', '6', '4');
+INSERT INTO Beszallitas VALUES
+('11', '2021-11-09', 'Tej', '7', '2');
+INSERT INTO Beszallitas VALUES
+('12', '2021-11-10', 'Liszt', '6', '6');
+INSERT INTO Beszallitas VALUES
+('13', '2021-11-11', 'So', '12', '5');
+INSERT INTO Beszallitas VALUES
+('14', '2021-11-12', 'Tejfol', '14', '4');
+INSERT INTO Beszallitas VALUES
+('15', '2021-11-13', 'Sutoolaj', '14', '15');
+
+
+
