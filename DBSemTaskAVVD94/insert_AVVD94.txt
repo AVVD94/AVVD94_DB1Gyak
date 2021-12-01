@@ -101,7 +101,7 @@ INSERT INTO Vevo VALUES
 INSERT INTO Vevo VALUES
 ('2', 'Nagy Geza', '301212123', 'Miskolc', '3510', 'Szeder utca', '32');
 INSERT INTO Vevo VALUES
-('3', 'Lakatos Anna', '201212123', 'Ózd', '3662', 'Mogyoro utca', '34');
+('3', 'Lakatos Anna', '201212123', 'Ozd', '3662', 'Mogyoro utca', '34');
 INSERT INTO Vevo VALUES
 ('4', 'Kiss Tibor', '701212123', 'Kazincbarcika', '3700', 'Fo utca', '21');
 INSERT INTO Vevo VALUES
@@ -109,7 +109,7 @@ INSERT INTO Vevo VALUES
 INSERT INTO Vevo VALUES
 ('6', 'Horvath Gabor', '206543234', 'Miskolc', '3510', 'Matyas ut', '23');
 INSERT INTO Vevo VALUES
-('7', 'Toth Fanni', '302345676', 'Ózd', '3662', 'Tardonai ut', '3');
+('7', 'Toth Fanni', '302345676', 'Ozd', '3662', 'Tardonai ut', '3');
 INSERT INTO Vevo VALUES
 ('8', 'Nagy Bela', '203454345', 'Kazincbarcika', '3700', 'Herbolyai út', '23');
 INSERT INTO Vevo VALUES
